@@ -15,11 +15,11 @@ git push
 
 
 
--- db loomine
-create database Tarpe21
+-- db loomine *
+create database Titpv20
 
 -- db kustutamine
-DRop DataBASE Tarpe21
+DRop DataBASE Titpv20
 
 --- teeme tabeli
 create table Gender
