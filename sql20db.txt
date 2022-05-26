@@ -1,3 +1,34 @@
+git CMD
+
+C:\Users\opilane\Desktop>git config --global user.name "Egor Kiryachkov"
+
+C:\Users\opilane\Desktop>git config --global user.email "egor00015@gmail.com"
+
+C:\Users\opilane\Desktop>git config --global --list
+user.name=Egor Kiryachkov
+user.email=egor00015@gmail.com
+
+C:\Users\opilane\Desktop>git clone https://github.com/IrinaMerkulova/TITpv20
+
+C:\Users\opilane\Desktop>cd TITpv20
+
+C:\Users\opilane\Desktop\TITpv20>git branch EgorK
+
+C:\Users\opilane\Desktop\TITpv20>git checkout EgorK
+Switched to branch 'EgorK'
+
+C:\Users\opilane\Desktop\TITpv20>git status
+On branch EgorK
+nothing to commit, working tree clean
+
+git add .
+git commit -a -m "git commit added"
+
+git push
+
+
+
+
 -- db loomine
 create database Tarpe21
 
