@@ -12,10 +12,10 @@ git commit -a -m "git käsud on lisatud"
 
 git push
 
--- db loomine *done
+-- db loomine *tehtud
 create database Tarpe21 
 
--- db kustutamine
+-- db kustutamine Sugu ja Isik *tehtud
 DRop DataBASE Tarpe21
 
 --- teeme tabeli
@@ -62,7 +62,7 @@ values (7, 'Spiderman', 'spider@spiderman.com', 2)
 -- vaatame tabeli andmeid
 select * from Person
 
---- võõrvõtme piirangu maha võtmine
+--- võõrvõtme piirangu maha võtmine / удаление связей между таблицами
 alter table Person
 drop constraint tblPerson_GenderId_FK
 
