@@ -264,7 +264,7 @@ int null
 
 --- lisame tabelid
 alter table Employees
-add firstName nvarchar(30)
+add FirstName nvarchar(30)
 
 alter table Employees
 add MiddleName nvarchar(30)
