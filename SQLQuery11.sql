@@ -1,0 +1,1 @@
+select * from Person where (City = 'TLN' or City = 'NY')
