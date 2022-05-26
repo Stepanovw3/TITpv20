@@ -20,6 +20,7 @@ git push
 
 
 
+
 -- db loomine
 --create database TiTpv20
 
