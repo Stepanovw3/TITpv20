@@ -304,7 +304,7 @@ git push
 --tund 3 on tehtud
 
 
---- loome stored procedure, mis kuvab vaate
+--- loome stored procedure, mis kuvab vaate 
 -- create procedure spgetemployees
 -- as begin
 	-- select firstname, gender from employees
