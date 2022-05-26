@@ -138,7 +138,7 @@ select * from Person where Email like '_@_.com'
 -- Done
 --- kõik, kellel ei ole nimes esimene täht W, A ja S
 select * from Person where Name like '[^WAS]%'
-
+-- Done
 --- kes elavad Gothamis ja New Yorkis
 select * from Person where (City = 'Gotham' or City = 'New York')
 
