@@ -9,6 +9,8 @@ git branch DaanelD
 git checkout DaanelD
 git status
 
+git push --set-upstream origin DaanelD
+
 
 git add .
 git commit -a -m "git commands are added"
@@ -19,7 +21,7 @@ git push
 
 
 -- db loomine
-create database Tarpe21
+--create database TiTpv20
 
 -- db kustutamine
 DRop DataBASE Tarpe21
