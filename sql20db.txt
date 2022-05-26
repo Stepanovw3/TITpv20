@@ -378,15 +378,15 @@ declare @TotalEmployees int
 execute spTotalCount2 @TotalEmployees output
 select @TotalEmployees
 
---- mis id all on keegi nime järgi
+--- mis id all on keegi nime järgi *mis id all on keegi nime järgi КАКОЙ ИД ПАД ЧЬИМ ИМЕНИМ
 create proc spGetNameById1
 @Id int,
 @FirstName nvarchar(50) output
 as begin
-	select @FirstName = FirstName from employees where Id = @Id
+	select @Name = Name from employees where Id = @Id
 end
 
---- käivitame sp
+--- käivitame sp *launching 
 declare @FirstName nvarchar(50)
 execute spGetNameById1 6, @FirstName output
 print 'Name of the employee = ' + @FirstName
