@@ -302,7 +302,7 @@ spGetEmployees
 exec spGetEmployees
 execute spGetEmployees
 
---- 
+--- Done
 create proc spGetEmployeesByGenderAndDepartment
 @Gender nvarchar(20),
 @DepartmentId int
@@ -315,7 +315,7 @@ end
 spGetEmployeesByGenderAndDepartment 'Male', 1
 
 spGetEmployeesByGenderAndDepartment @DepartmentId =  1, @Gender = 'Male'
-
+-- Done
 
 
 
