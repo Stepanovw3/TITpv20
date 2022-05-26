@@ -1,3 +1,18 @@
+git CMD
+
+git clone https://github.com/IrinaMerkulova/TITpv20
+cd TITpv20
+git branch alexkaasik
+git checkout alexkaasik
+git status
+
+git add .
+git commit -a -m
+git push
+
+
+
+
 -- db loomine
 create database Tarpe21
 
