@@ -334,12 +334,11 @@ if(@TotalCount = 0)
 else
 	print '@TotalCount is not null'
 print @TotalCount
--- Done
 -- annab teada, palju on meessoost isikuid
 declare @TotalCount int
 exec spGetEmployeeCountByGender @EmployeeCount = @TotalCount out, @Gender = 'Male'
 print @TotalCount
-
+-- Done
 ---- annab kogu tabeli ridade arvu
 create proc spTotalCount2
 @TotalCount int output
@@ -350,7 +349,7 @@ end
 declare @TotalEmployees int
 execute spTotalCount2 @TotalEmployees output
 select @TotalEmployees
-
+-- Done
 --- mis id all on keegi nime järgi
 create proc spGetNameById1
 @Id int,
