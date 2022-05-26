@@ -298,7 +298,7 @@ select * from Department
 
 
 
---- loome stored procedure, mis kuvab vaate
+--- loome stored procedure, mis kuvab vaate *done
 create procedure spGetEmployees
 as begin
 	select FirstName, Gender from Employees
