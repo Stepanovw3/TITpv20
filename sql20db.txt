@@ -301,7 +301,7 @@ select * from Department
 
 
 
---- loome stored procedure, mis kuvab vaate
+--- создаем процедуру, которая отображает представление
 create procedure spGetEmployees
 as begin
 	select FirstName, Gender from Employees
