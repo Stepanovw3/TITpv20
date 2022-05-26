@@ -199,8 +199,10 @@ select * from Person order by Age
 select sum(cast(Age as int)) from Person
 
 --- kuvab kõige nooremat isikut
+
 select min(cast(Age as int)) from Person
 --- kõige vanem isik
+ * самый старый человек
 select max(cast(Age as int)) from Person
 
 select City, sum(cast(Age as int)) as TotalAge from Person group by City
@@ -402,11 +404,13 @@ as begin
 end
 
 --- käivitame sp
+* запуск процедуры = > Name of the employee = Ben
 declare @FirstName nvarchar(50)
 execute spGetNameById1 6, @FirstName output
 print 'Name of the employee = ' + @FirstName
 
 
+* создание процедуры возвращает имя, когда ИД=ИД
 create proc spGetNameById2
 @Id int
 as begin
@@ -434,7 +438,7 @@ select * from Employees
 
 -- after trigger:  käivitub peale mingit tegevust
 -- instead trigger: käivitub enne triggeri tegevuse toimumist
-create database TITpv22
+create database TITpv20
 
 create table EmployeeTrigger
 (
@@ -481,6 +485,7 @@ insert into EmployeeTrigger values(7, 'Jimmy', 1800, 'Male', 3)
 select * from EmployeeAudit
 
 --- peale kustutamist tekiks info EmployeeAudit tabelisse
+* После удаления информация появлась в таблице
 create trigger EmployeeForDelete
 on EmployeeTrigger
 for delete
