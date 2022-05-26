@@ -14,13 +14,13 @@ git commit -a -m "git käsud on lisatud"
 
 git push
 
--- db loomine
--- create database Tarpe21 tehtud
+-- db loomine tehtud
+create database Tarpe21 
 
 -- db kustutamine
 DRop DataBASE Tarpe21
 
---- teeme tabeli
+--- teeme tabeli создали таблицы Gender и Person 
 create table Gender
 (
 Id int NOT NULL primary key,
