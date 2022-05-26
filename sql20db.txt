@@ -1,3 +1,19 @@
+git cmd
+
+git clone https://github.com/IrinaMerkulova/TITpv20
+
+cd TITpv20
+git branch NikitaArs
+git checkout NikitaArs
+git status
+
+git add .
+git commit -a -m "git käsud on lisatud"
+
+git push
+
+
+
 -- db loomine
 create database Tarpe21
 
