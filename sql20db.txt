@@ -328,7 +328,7 @@ git push
 
 -- spgetemployeesbygenderanddepartment @departmentid =  1, @gender = 'male'
 
- 
+  
 
 
 -- create proc spgetemployeecountbygender
