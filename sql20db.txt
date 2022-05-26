@@ -327,7 +327,7 @@ spGetEmployeesByGenderAndDepartment @DepartmentId =  1, @Gender = 'Male'
 
 
 
----Показывает мужc.пол 
+---Пррцедура Показывает мужc.пол 
 create proc spGetEmployeeCountByGender
 @Gender nvarchar(20),
 @EmployeeCount int output
