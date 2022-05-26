@@ -1,3 +1,42 @@
+git CMD
+
+
+cd desktop
+
+
+git config --global user.name "Arsen Manukjan"
+
+
+git config --global user.email "arsenparsen1970@mail.ru"
+
+
+git config --global --list
+
+
+git clone https://github.com/IrinaMerkulova/TITpv20
+
+
+cd TITpv20
+
+
+git branch ArsenM
+
+
+git checkout ArsenM
+
+
+git status
+
+
+git add .
+git commit -a -m "git käsud on lisatud"
+
+git push
+
+
+
+
+
 -- db loomine
 create database Tarpe21
 
