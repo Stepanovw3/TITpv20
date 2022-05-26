@@ -169,7 +169,7 @@ and Age >= 40
 
 -- kuvab tähestikulises järjekorras inimesi ja võtab aluseks Name veeru *done
 select * from Person order by Name
---- kuva vastupidises järjestuses
+--- kuva vastupidises järjestuses *done
 select * from Person order by Name desc
 
 ---võtab kolm esimest rida
