@@ -1,3 +1,13 @@
+git CMD
+
+git clone https://github.com/IrinaMerkulova/TITpv20
+git branch IvanK
+git checkout IvanK
+git status
+
+git add .
+git commit -a -m ""
+
 -- db loomine
 create database Tarpe21
 
