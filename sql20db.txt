@@ -1,3 +1,19 @@
+git CMD
+cd desktop
+cd users
+git config --global user.name "Etjen Luik"
+git config --global user.email "etjen.luik@gmail.com"
+git config --global --list
+git clone https://github.com/IrinaMerkulova/TITpv20
+cd TITpv20
+git branch EtjenL
+git checkout EtjenL
+git status
+git add .
+git commit -a -m "git käsud on lisatud"
+
+git push
+
 -- db loomine
 create database Tarpe21
 
