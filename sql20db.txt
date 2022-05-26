@@ -337,9 +337,9 @@ as begin
 end
 
 --- kõik esimeses osakonnas meessoost töötavad isikud
-spGetEmployeesByGenderAndDepartment 'Male', 1
+	spGetEmployeesByGenderAndDepartment 'Male', 1
 
-spGetEmployeesByGenderAndDepartment @DepartmentId =  1, @Gender = 'Male'
+	spGetEmployeesByGenderAndDepartment @DepartmentId =  1, @Gender = 'Male'
 
 
 
@@ -350,6 +350,8 @@ create proc spGetEmployeeCountByGender
 as begin
 	select @EmployeeCount = count(Id) from Employees where Gender = @Gender
 end
+
+*getting employee by gender 
 
 -- annab teada, palju on meessoost isikuid ning kuvab vastava stringi
 declare @TotalCount int
