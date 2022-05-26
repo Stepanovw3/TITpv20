@@ -308,8 +308,8 @@ spGetEmployees
 exec spGetEmployees
 execute spGetEmployees
 
---- 
-create proc spGetEmployeesByGenderAndDepartment
+--- *done
+create proc spGetEmployeesByGenderAndDepartment 
 @Gender nvarchar(20),
 @DepartmentId int
 as begin
