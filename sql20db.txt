@@ -267,7 +267,7 @@ select sum(cast(Salary as int)) from Employees
 select min(cast(Salary as int)) from Employees
 
 
-alter table Employees
+alter table Employees   *adding altertables
 add City nvarchar(25)
 
 
