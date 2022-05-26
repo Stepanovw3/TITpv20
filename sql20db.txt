@@ -1,12 +1,14 @@
 git CMD
-
+Some change Foo
 git clone https://github.com/IrinaMerkulova/TITpv20
 git branch IvanK
 git checkout IvanK
 git status
 
 git add .
-git commit -a -m ""
+git commit -a -m "Added git commands onto sql20db.txt"
+
+git push
 
 -- db loomine
 create database Tarpe21
