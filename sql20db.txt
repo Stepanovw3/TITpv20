@@ -71,6 +71,8 @@ git push
 -- vaatame tabeli andmeid
 -- select * from person
 
+-- * tabelid on täidetud andmetega
+
 --- võõrvõtme piirangu maha võtmine
 alter table Person
 drop constraint tblPerson_GenderId_FK
