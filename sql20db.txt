@@ -133,7 +133,7 @@ select * from Person where Age in (100, 50, 20)
 --- näitab teatud vanusevahemikus olevaid inimesi *tehtud
 select * from Person where Age between 30 and 50
 
---- wildcard e näitab kõik g-tähega linnad
+--- wildcard e näitab kõik g-tähega linnad *tehtud
 select * from Person where City like 'n%'
 select * from Person where Email like '%@%'
 
