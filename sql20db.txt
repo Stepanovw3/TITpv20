@@ -81,6 +81,10 @@ values (7, 'Spiderman', 'spider@spiderman.com', 2)
 -- vaatame tabeli andmeid *tehtud
 select * from Person
 
+* tabelid on taidetud andmetega
+
+
+
 --- võõrvõtme piirangu maha võtmine
 alter table Person
 drop constraint tblPerson_GenderId_FK
