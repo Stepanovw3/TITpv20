@@ -276,7 +276,7 @@ add DepartmentId
 int null
 
 
---- lisame tabelid
+--- lisame tabelid   *adding altertables to Employees2 (middle- and lastname)
 alter table Employees
 add MiddleName nvarchar(30)
 
