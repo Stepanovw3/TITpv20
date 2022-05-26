@@ -1,3 +1,36 @@
+git CMD
+C:\Users\opilane\Desktop>git config --global user.name "Anton Slepnjov"
+
+C:\Users\opilane\Desktop>git config --global user.email "phonemailanton@gmail.com"
+-------
+C:\Users\opilane\Desktop>git config --global --list
+user.name=Anton Slepnjov
+user.email=phonemailanton@gmail.com
+--------
+C:\Users\opilane\Desktop>git clone https://github.com/IrinaMerkulova/TITpv20
+Cloning into 'TITpv20'...
+
+------------
+C:\Users\opilane\Desktop>cd TITpv20
+
+C:\Users\opilane\Desktop\TITpv20>git branch AntonS
+
+C:\Users\opilane\Desktop\TITpv20>git checkout AntonS
+Switched to branch 'AntonS'
+
+C:\Users\opilane\Desktop\TITpv20>git status
+On branch AntonS
+
+-----------------
+git add .
+git commit -a -m "git käinud on lisatud"
+
+git push
+----------------
+
+
+
+
 -- db loomine
 create database Tarpe21
 
