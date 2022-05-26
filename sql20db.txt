@@ -293,7 +293,7 @@ select * from Department
 
 
 --- loome stored procedure, mis kuvab vaate
-create procedure spGetEmployees
+create procedure spGetEmployees *создает 2 новых процесса
 as begin
 	select FirstName, Gender from Employees
 end
