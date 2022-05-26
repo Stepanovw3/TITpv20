@@ -11,10 +11,10 @@ git commit -a -m "Added git commands onto sql20db.txt"
 git push
 
 -- db loomine
-create database Tarpe21
-
+-- create database TITpv20
+-- DB has been created
 -- db kustutamine
-DRop DataBASE Tarpe21
+DRop DataBASE TITpv20
 
 --- teeme tabeli
 create table Gender
