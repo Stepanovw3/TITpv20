@@ -152,12 +152,12 @@ select * from Person where (City = 'Gotham' or City = 'New York')
 select * from Person where (City = 'Gotham' or City = 'New York')
 and Age >= 40
 
--- kuvab tähestikulises järjekorras inimesi ja võtab aluseks Name veeru
+-- kuvab tähestikulises järjekorras inimesi ja võtab aluseks Name veeru *done
 select * from Person order by Name
---- kuva vastupidises järjestuses
+--- kuva vastupidises järjestuses *done
 select * from Person order by Name desc
 
----võtab kolm esimest rida
+---võtab kolm esimest rida *done
 select top 3 * from Person
 
 --- kolm esimest, aga tabeli järjestus on Age ja siis Name
