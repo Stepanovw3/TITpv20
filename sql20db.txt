@@ -353,7 +353,7 @@ end
 
 *getting employee by gender 
 
--- annab teada, palju on meessoost isikuid ning kuvab vastava stringi
+-- annab teada, palju on meessoost isikuid ning kuvab vastava stringi *shows how many female persons and if the count is not 0
 declare @TotalCount int
 exec spGetEmployeeCountByGender 'Female', @TotalCount out
 if(@TotalCount = 0)
