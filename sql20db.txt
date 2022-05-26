@@ -15,7 +15,7 @@ git commit -a -m "git käsud on lisatud"
 git push
 
 -- db loomine
-create database Tarpe21
+-- create database Tarpe21 tehtud
 
 -- db kustutamine
 DRop DataBASE Tarpe21
