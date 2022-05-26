@@ -38,7 +38,7 @@ git push
 
 
 -- db loomine
-create database Tarpe21
+create database Titpv20 "on tehtud"
 
 -- db kustutamine
 DRop DataBASE Tarpe21
