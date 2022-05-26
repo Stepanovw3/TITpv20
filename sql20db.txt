@@ -1,10 +1,30 @@
--- db loomine
+git cmd
+git checkout Talvik
+git status
+config --global user.name ''georg''
+git config global --global user.email ''gosa123talvik@mail.ru''
+git clone https://github.com/IrinaMerkulova/TITPV20
+
+git branch Talvik
+
+git add .
+
+git coommit -a -m 'git käsud on lisatud'
+
+git push 
+
+
+
+
+
+
+-- db loomine 'tehtumine'
 create database Tarpe21
 
 -- db kustutamine
 DRop DataBASE Tarpe21
 
---- teeme tabeli
+-- --- teeme tabeli tehtud 
 create table Gender
 (
 Id int NOT NULL primary key,
