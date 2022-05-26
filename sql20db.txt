@@ -119,7 +119,7 @@ select * from Person
 alter table Person
 add City nvarchar(25)
 
--- tahame tead kõiki, kes elavad Gothami linnas 
+-- tahame tead kõiki, kes elavad Gothami linnas *tehtud
 select * from Person where City = 'Narva'
 -- kõik, kes ei ela Gothamis
 select * from Person where City <> 'Gotham'
