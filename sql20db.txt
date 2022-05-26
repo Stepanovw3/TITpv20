@@ -60,12 +60,14 @@ DRop DataBASE TITpv20
 select * from Person
 * tabels are now filled
 --- võõrvõtme piirangu maha võtmine
+-- Removing table's constraints.
 alter table Person
 drop constraint tblPerson_GenderId_FK
 
 -- sisestame väärtuse tabelisse
-insert into Gender (Id, Gender)
-values (3, 'Unknown')
+-- insert into Gender (Id, Gender)
+-- values (3, 'Unknown')
+-- Done
 -- lisame võõrvõtme uuesti
 alter table Person
 add constraint DF_Person_GenderId
@@ -95,7 +97,7 @@ add constraint CK_Person_Age check (Age > 0 and Age < 150)
 
 insert into Person (Id, Name, Email, GenderId, Age)
 values (9, 'Test', 'Test', 2, 160)
-
+-- Done. All queries are done!
 --rea kustutamine
 select * from Person
 go
