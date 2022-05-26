@@ -14,12 +14,12 @@ git push
 
 
 -- db loomine
-create database Tarpe21
+create database TITpv20
 
 -- db kustutamine
 DRop DataBASE Tarpe21
 
---- teeme tabeli
+--- teeme tabeli  create a table Gender and Person
 create table Gender
 (
 Id int NOT NULL primary key,
