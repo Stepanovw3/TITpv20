@@ -43,10 +43,10 @@ git push
 --)
 
 --- andmete sisestamine tabelisse
-insert into Gender (Id, Gender)
-values (1, 'Female')
-insert into Gender (Id, Gender)
-values (2, 'Male')
+-- insert into gender (id, gender)
+-- values (1, 'female')
+-- insert into gender (id, gender)
+-- values (2, 'male')
 
 --- nüüd saab kasutada ainult Gender tabelis olevaid väärtuseid
 alter table Person add constraint tblPerson_GenderId_FK
