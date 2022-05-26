@@ -1,3 +1,21 @@
+git CMD
+
+git config -- global user.name "Daanel Dederer"
+git config --global user.email "daaneldederer@gmail.com"
+git config --global --list
+git clone https://github.com/IrinaMerkulova/TITpv20
+cd TITpv20
+git branch DaanelD
+git checkout DaanelD
+git status
+
+git add .
+git commit -a -m "git commands are added"
+
+git push 
+
+
+
 -- db loomine
 create database Tarpe21
 
