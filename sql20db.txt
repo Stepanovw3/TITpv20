@@ -357,7 +357,7 @@ declare @TotalEmployees int
 execute spTotalCount2 @TotalEmployees output
 select @TotalEmployees
 
---- mis id all on keegi nime järgi *done 
+--- mis id all on keegi nime järgi *done   
 create proc spGetNameById1
 @Id int,
 @FirstName nvarchar(50) output
