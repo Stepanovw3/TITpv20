@@ -58,7 +58,7 @@ DRop DataBASE TITpv20
 -- Done!!
 -- vaatame tabeli andmeid
 select * from Person
-
+* tabels are now filled
 --- võõrvõtme piirangu maha võtmine
 alter table Person
 drop constraint tblPerson_GenderId_FK
