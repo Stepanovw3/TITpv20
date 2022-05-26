@@ -312,7 +312,7 @@ where Id = 10
 
 *changed table Employees, added columns FirstName, MiddleName and LastName
 
---- igast reast võtab esimeses veerus täidetud lahtri ja kuvab ainult seda
+--- igast reast võtab esimeses veerus täidetud lahtri ja kuvab ainult seda *done
 select Id, coalesce(FirstName, MiddleName, LastName) as Name
 from Employees
 
