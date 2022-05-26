@@ -377,6 +377,7 @@ else
 print @TotalCount
 
 -- annab teada, palju on meessoost isikuid
+да
 * выдает число 7
 declare @TotalCount int
 exec spGetEmployeeCountByGender @EmployeeCount = @TotalCount out, @Gender = 'Male'
@@ -417,6 +418,7 @@ as begin
 	return (select FirstName from Employees where Id = @Id)
 end
 -- tuleb veatead kuna kutsusime välja int-i, aga Tom on string
+должна выдавать ошибку
 declare @EmployeeName nvarchar(50)
 exec @EmployeeName = spGetNameById2 1
 print 'Name of the employee = ' + @EmployeeName
