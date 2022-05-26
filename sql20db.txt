@@ -106,19 +106,19 @@ values (9, 'Test', 'Test', 2, 160)
 
 *lisatud veerg vanus / piiranguga check (Age > 0 and Age < 150) 
 
---rea kustutamine
+--rea kustutamine *done
 select * from Person
 go
 delete from Person where Id = 8
 go
 select * from Person
 
---- lisame veeru juurde
+--- lisame veeru juurde *done
 alter table Person
 add City nvarchar(25)
 
--- tahame tead kõiki, kes elavad Gothami linnas 
-select * from Person where City = 'Gotham'
+-- tahame tead kõiki, kes elavad Kekra linnas 
+select * from Person where City = 'Kekra'
 -- kõik, kes ei ela Gothamis
 select * from Person where City <> 'Gotham'
 select * from Person where City != 'Gotham'
