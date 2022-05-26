@@ -167,7 +167,7 @@ select * from Person where (City = 'Tallinn' or City = 'Tartu')
 select * from Person where (City = 'Tallinn' or City = 'Tartu')
 and Age >= 40
 
--- kuvab tähestikulises järjekorras inimesi ja võtab aluseks Name veeru
+-- kuvab tähestikulises järjekorras inimesi ja võtab aluseks Name veeru *done
 select * from Person order by Name
 --- kuva vastupidises järjestuses
 select * from Person order by Name desc
