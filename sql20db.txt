@@ -18,10 +18,10 @@ git push
 -- db loomine * tehtud
 create database Titpv20
 
--- db kustutamine
-DRop DataBASE Tarpe21
+-- db kustutamine * tehtud
+DRop DataBASE Titpv20
 
---- teeme tabeli
+--- teeme tabeli sugu ja isisk * tehtud
 create table Gender
 (
 Id int NOT NULL primary key,
