@@ -259,7 +259,7 @@ select * from Employees
 
 *inserted data into tables Department and Employees
 
---- saan ainult selles tabelis olevad veerud
+--- saan ainult selles tabelis olevad veerud *done
 select distinct Name, DepartmentId from Employees
 
 --- arvutame k]ikide palgad kokku
