@@ -334,7 +334,7 @@ spGetEmployeesByGenderAndDepartment 'Male', 1
 spGetEmployeesByGenderAndDepartment @DepartmentId =  1, @Gender = 'Male'
 
 
-
+-- to count up people by gender
 
 create proc spGetEmployeeCountByGender
 @Gender nvarchar(20),
@@ -344,6 +344,8 @@ as begin
 end
 
 -- annab teada, palju on meessoost isikuid ning kuvab vastava stringi
+
+--count how many females there is 
 declare @TotalCount int
 exec spGetEmployeeCountByGender 'Female', @TotalCount out
 if(@TotalCount = 0)
@@ -353,6 +355,9 @@ else
 print @TotalCount
 
 -- annab teada, palju on meessoost isikuid
+
+--count how many males there is 
+
 declare @TotalCount int
 exec spGetEmployeeCountByGender @EmployeeCount = @TotalCount out, @Gender = 'Male'
 print @TotalCount
@@ -377,6 +382,8 @@ as begin
 end
 
 --- käivitame sp
+
+-- print firsht name in the alphabet names of the worker
 declare @FirstName nvarchar(50)
 execute spGetNameById1 6, @FirstName output
 print 'Name of the employee = ' + @FirstName
