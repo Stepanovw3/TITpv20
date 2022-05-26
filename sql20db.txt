@@ -11,7 +11,7 @@ git commit -a -m
 git push
 
 
-
+-----test
 
 -- db loomine
 create database TITpv20
