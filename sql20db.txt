@@ -98,7 +98,7 @@ add constraint CK_Person_Age check (Age > 0 and Age < 150)
 
 insert into Person (Id, Name, Email, GenderId, Age)
 values (9, 'Test', 'Test', 2, 160)
-
+*lisatud veerg vanus / age piiranguga CHECK Age > 0 and Age < 150
 --rea kustutamine
 select * from Person
 go
@@ -111,7 +111,7 @@ alter table Person
 add City nvarchar(25)
 
 -- tahame tead kõiki, kes elavad Gothami linnas 
-select * from Person where City = 'Gotham'
+select * from Person where City = 'Tallinn'
 -- kõik, kes ei ela Gothamis
 select * from Person where City <> 'Gotham'
 select * from Person where City != 'Gotham'
@@ -175,8 +175,9 @@ select max(cast(Age as int)) from Person
 select City, sum(cast(Age as int)) as TotalAge from Person group by City
 
 
+* Kõik select Laused on eraldi failides
 
-
+git push
 
 --- tund 3
 
