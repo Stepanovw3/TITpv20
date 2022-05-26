@@ -41,6 +41,8 @@ else
 	print '@TotalCount is not null'
 print @TotalCount
 
+*указывает количество лиц мужского пола и отображает соответствующую строку
+
 -- annab teada, palju on meessoost isikuid
 declare @TotalCount int
 exec spGetEmployeeCountByGender @EmployeeCount = @TotalCount out, @Gender = 'Male'
