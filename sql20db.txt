@@ -277,6 +277,8 @@ add DepartmentId
 int null
 
 
+*changed tables Employees, added columns City and DepartmentId
+
 --- lisame tabelid
 alter table Employees
 add MiddleName nvarchar(30)
