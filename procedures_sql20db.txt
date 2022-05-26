@@ -76,6 +76,7 @@ declare @FirstName nvarchar(50)
 execute spGetNameById1 6, @FirstName output
 print 'Name of the employee = ' + @FirstName
 
+*показывает какой id находится под чьим-то именем
 
 create proc spGetNameById2
 @Id int
