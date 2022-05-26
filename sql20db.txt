@@ -311,7 +311,7 @@ as begin
 	and DepartmentId = @DepartmentId
 end
 
---- kõik esimeses osakonnas meessoost töötavad isikud
+--- kõik esimeses osakonnas meessoost töötavad isikud *выводит только людей с "male" из 1 отдела, создает новый процесс
 spGetEmployeesByGenderAndDepartment 'Male', 1
 
 spGetEmployeesByGenderAndDepartment @DepartmentId =  1, @Gender = 'Male'
