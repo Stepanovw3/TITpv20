@@ -289,7 +289,7 @@ update Employees set FirstName = NULL, MiddleName = NULL, LastName = 'Crowe'
 where Id = 10
 
 
---- igast reast võtab esimeses veerus täidetud lahtri ja kuvab ainult seda
+--- igast reast võtab esimeses veerus täidetud lahtri ja kuvab ainult seda *tehtud
 select Id, coalesce(FirstName, MiddleName, LastName) as Name
 from Employees
 
@@ -300,7 +300,7 @@ select * from Department
 
 
 
---- loome stored procedure, mis kuvab vaate
+--- loome stored procedure, mis kuvab vaate *tehtud kuvab töötajate ees- ja perekonnanime
 create procedure spGetEmployees
 as begin
 	select FirstName, Gender from Employees
