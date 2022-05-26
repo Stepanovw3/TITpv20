@@ -359,7 +359,7 @@ as begin
 	select @FirstName = FirstName from employees where Id = @Id
 end
 
---- käivitame sp
+--- käivitame sp * добавляет к Name of the employee имя
 declare @FirstName nvarchar(50)
 execute spGetNameById1 6, @FirstName output
 print 'Name of the employee = ' + @FirstName
@@ -370,7 +370,7 @@ create proc spGetNameById2
 as begin
 	return (select FirstName from Employees where Id = @Id)
 end
--- tuleb veatead kuna kutsusime välja int-i, aga Tom on string
+-- tuleb veatead kuna kutsusime välja int-i, aga Tom on string *ошибка из-за неправильного типа ввода int(?) при вызове
 declare @EmployeeName nvarchar(50)
 exec @EmployeeName = spGetNameById2 1
 print 'Name of the employee = ' + @EmployeeName
