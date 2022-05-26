@@ -246,8 +246,10 @@ select * from Employees
 select distinct Name, DepartmentId from Employees
 
 --- arvutame k]ikide palgad kokku
+--- 
 select sum(cast(Salary as int)) from Employees
 --- k]ige v'iksema palga saaja
+
 select min(cast(Salary as int)) from Employees
 
 
@@ -261,6 +263,9 @@ int null
 
 
 --- lisame tabelid
+alter table Employees
+add firstName nvarchar(30)
+
 alter table Employees
 add MiddleName nvarchar(30)
 
