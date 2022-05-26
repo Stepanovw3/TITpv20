@@ -340,7 +340,7 @@ declare @TotalCount int
 exec spGetEmployeeCountByGender @EmployeeCount = @TotalCount out, @Gender = 'Male'
 print @TotalCount
 
----- annab kogu tabeli ridade arvu
+---- annab kogu tabeli ridade arvu 
 create proc spTotalCount2
 @TotalCount int output
 as begin
@@ -351,7 +351,7 @@ declare @TotalEmployees int
 execute spTotalCount2 @TotalEmployees output
 select @TotalEmployees
 
---- mis id all on keegi nime järgi
+--- mis id all on keegi nime järgi * id имени из employees
 create proc spGetNameById1
 @Id int,
 @FirstName nvarchar(50) output
