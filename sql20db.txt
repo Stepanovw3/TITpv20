@@ -257,6 +257,8 @@ values (10, 'Russell', 'Male', 8800, NULL)
 
 select * from Employees
 
+*inserted data into tables Department and Employees
+
 --- saan ainult selles tabelis olevad veerud
 select distinct Name, DepartmentId from Employees
 
