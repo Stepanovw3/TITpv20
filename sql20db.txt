@@ -63,7 +63,10 @@ values (7, 'Spiderman', 'spider@spiderman.com', 2)
 -- vaatame tabeli andmeid
 select * from Person
 
+-- SAVE
+
 --- võõrvõtme piirangu maha võtmine
+--- delete link between m\y
 alter table Person
 drop constraint tblPerson_GenderId_FK
 
@@ -100,6 +103,7 @@ add constraint CK_Person_Age check (Age > 0 and Age < 150)
 insert into Person (Id, Name, Email, GenderId, Age)
 values (9, 'Test', 'Test', 2, 160)
 
+-- lisatid veerg vanus /age piiranguga check age > 0 and < 150
 --rea kustutamine
 select * from Person
 go
@@ -175,12 +179,12 @@ select max(cast(Age as int)) from Person
 
 select City, sum(cast(Age as int)) as TotalAge from Person group by City
 
-
+-- kõik select laused on 
 
 
 
 --- tund 3
-
+Create Table Deparment and Employees
 --- loome uued tabelid
 create table Department
 (
