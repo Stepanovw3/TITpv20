@@ -208,7 +208,7 @@ insert into Department (Id, DepartmentName, Location, DepartmentHead)
 values (3, 'HR', 'New York', 'Christie')
 insert into Department (Id, DepartmentName, Location, DepartmentHead)
 values (4, 'Other Deparment', 'Sydney', 'Cindrella')
-
+-- Done
 select * from Department
 
 insert into Employees (Id, Name, Gender, Salary, DepartmentId)
@@ -231,7 +231,7 @@ insert into Employees (Id, Name, Gender, Salary, DepartmentId)
 values (9, 'James', 'Male', 6500, NULL)
 insert into Employees (Id, Name, Gender, Salary, DepartmentId)
 values (10, 'Russell', 'Male', 8800, NULL)
-
+-- Done
 select * from Employees
 
 --- saan ainult selles tabelis olevad veerud
@@ -250,7 +250,7 @@ add City nvarchar(25)
 alter table Employees
 add DepartmentId
 int null
-
+-- Done
 
 --- lisame tabelid
 alter table Employees
@@ -258,7 +258,7 @@ add MiddleName nvarchar(30)
 
 alter table Employees
 add LastName nvarchar(30)
-
+-- Done
 update Employees set FirstName = 'Tom', MiddleName = 'Nick', LastName = 'Jones'
 where Id = 1
 update Employees set FirstName = 'Pam', MiddleName = NULL, LastName = 'Anderson'
