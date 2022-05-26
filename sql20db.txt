@@ -302,7 +302,7 @@ git push
 
 
 --tund 3 on tehtud
-
+ 
 
 --- loome stored procedure, mis kuvab vaate 
 -- create procedure spgetemployees
@@ -328,7 +328,7 @@ git push
 
 -- spgetemployeesbygenderanddepartment @departmentid =  1, @gender = 'male'
 
-
+ 
 
 
 -- create proc spgetemployeecountbygender
