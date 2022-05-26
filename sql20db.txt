@@ -320,7 +320,7 @@ as begin
 end
 
 --- kõik esimeses osakonnas meessoost töötavad isikud
-spGetEmployeesByGenderAndDepartment 'Male', 1
+spGetEmployeesByGenderAndDepartment 'Male', 1 *kuvatakse esimese sooga
 
 spGetEmployeesByGenderAndDepartment @DepartmentId =  1, @Gender = 'Male'
 
