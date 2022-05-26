@@ -247,61 +247,61 @@ git push
 -- andmed on lisatud tabelitesse "employees" ja "department"
 
 --- saan ainult selles tabelis olevad veerud
-select distinct Name, DepartmentId from Employees
+-- select distinct name, departmentid from employees
 
---- arvutame k]ikide palgad kokku
-select sum(cast(Salary as int)) from Employees
---- k]ige v'iksema palga saaja
-select min(cast(Salary as int)) from Employees
-
-
-alter table Employees
-add City nvarchar(25)
+-- --- arvutame k]ikide palgad kokku
+-- select sum(cast(salary as int)) from employees
+-- --- k]ige v'iksema palga saaja
+-- select min(cast(salary as int)) from employees
 
 
-alter table Employees
-add DepartmentId
-int null
+-- alter table employees
+-- add city nvarchar(25)
+
+
+-- alter table employees
+-- add departmentid
+-- int null
 
 
 --- lisame tabelid
-alter table Employees
-add MiddleName nvarchar(30)
+-- alter table employees
+-- add middlename nvarchar(30)
 
-alter table Employees
-add LastName nvarchar(30)
+-- alter table employees
+-- add lastname nvarchar(30)
 
-update Employees set FirstName = 'Tom', MiddleName = 'Nick', LastName = 'Jones'
-where Id = 1
-update Employees set FirstName = 'Pam', MiddleName = NULL, LastName = 'Anderson'
-where Id = 2
-update Employees set FirstName = 'John', MiddleName = NULL, LastName = NULL
-where Id = 3
-update Employees set FirstName = 'Sam', MiddleName = NULL, LastName = 'Smith'
-where Id = 4
-update Employees set FirstName = NULL, MiddleName = 'Todd', LastName = 'Someone'
-where Id = 5
-update Employees set FirstName = 'Ben', MiddleName = 'Ten', LastName = 'Sven'
-where Id = 6
-update Employees set FirstName = 'Sara', MiddleName = NULL, LastName = 'Connor'
-where Id = 7
-update Employees set FirstName = 'Valarie', MiddleName = 'Balerine', LastName = NULL
-where Id = 8
-update Employees set FirstName = 'James', MiddleName = '007', LastName = 'Bond'
-where Id = 9
-update Employees set FirstName = NULL, MiddleName = NULL, LastName = 'Crowe'
-where Id = 10
+-- update employees set firstname = 'tom', middlename = 'nick', lastname = 'jones'
+-- where id = 1
+-- update employees set firstname = 'pam', middlename = null, lastname = 'anderson'
+-- where id = 2
+-- update employees set firstname = 'john', middlename = null, lastname = null
+-- where id = 3
+-- update employees set firstname = 'sam', middlename = null, lastname = 'smith'
+-- where id = 4
+-- update employees set firstname = null, middlename = 'todd', lastname = 'someone'
+-- where id = 5
+-- update employees set firstname = 'ben', middlename = 'ten', lastname = 'sven'
+-- where id = 6
+-- update employees set firstname = 'sara', middlename = null, lastname = 'connor'
+-- where id = 7
+-- update employees set firstname = 'valarie', middlename = 'balerine', lastname = null
+-- where id = 8
+-- update employees set firstname = 'james', middlename = '007', lastname = 'bond'
+-- where id = 9
+-- update employees set firstname = null, middlename = null, lastname = 'crowe'
+-- where id = 10
 
 
 --- igast reast võtab esimeses veerus täidetud lahtri ja kuvab ainult seda
-select Id, coalesce(FirstName, MiddleName, LastName) as Name
-from Employees
+-- select id, coalesce(name, middlename, lastname) as name
+-- from employees
 
-select * from Employees
-select * from Department
+-- select * from employees
+-- select * from department
 
 
-
+--tund 3 on tehtud
 
 
 --- loome stored procedure, mis kuvab vaate
