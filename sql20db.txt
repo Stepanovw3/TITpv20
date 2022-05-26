@@ -1,3 +1,20 @@
+git CMD
+
+git config --global user.name "Kirill Delija"
+git config --global user.email "kirill.delija@gmail.com"
+git config --global --list
+git clone https://github.com/IrinaMerkulova/TITpv20
+cd TITpv20
+git branch KirillD
+git checkout KirillD
+git status
+
+git add .
+git commit -a -m "git käsud(command) on lisatud"
+
+git push
+
+
 -- db loomine
 create database Tarpe21
 
