@@ -1,3 +1,20 @@
+git config --global user.name "Mihhail Stepanov"
+git config --global user.email "stepanovmihhail@gmail.com"
+git config --global --list
+git clone https://github.com/IrinaMerkulova/TITpv20
+cd TITpv20
+git branch MihhailStepanov
+git checkout MihhailStepanov
+git status
+
+git add.
+git commit -a -m "git käasud on lisatud"
+git push
+
+
+
+
+
 -- db loomine
 create database Tarpe21
 
