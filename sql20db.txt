@@ -327,7 +327,7 @@ end
 --exec spGetEmployees
 execute spGetEmployees
 
---- 
+--- *процедура2 spGetEmployeesByGenderAndDepartment
 create proc spGetEmployeesByGenderAndDepartment
 @Gender nvarchar(20),
 @DepartmentId int
