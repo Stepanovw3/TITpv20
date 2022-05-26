@@ -32,11 +32,11 @@ DRop DataBASE TITpv20
 -- )
 -- Done (Created person and gender)
 --- andmete sisestamine tabelisse
-insert into Gender (Id, Gender)
-values (1, 'Female')
-insert into Gender (Id, Gender)
-values (2, 'Male')
-
+-- insert into Gender (Id, Gender)
+-- values (1, 'Female')
+-- insert into Gender (Id, Gender)
+-- values (2, 'Male')
+-- Done
 --- nüüd saab kasutada ainult Gender tabelis olevaid väärtuseid
 -- alter table Person add constraint tblPerson_GenderId_FK
 -- foreign key (GenderId) references Gender(Id)
