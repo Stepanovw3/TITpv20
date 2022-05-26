@@ -202,7 +202,7 @@ all select were added
 
 --- tund 3
 
---- loome uued tabelid
+--- loome uued tabelid  
 create table Department
 (
 Id int primary key,
@@ -219,6 +219,8 @@ Gender nvarchar(10),
 Salary nvarchar(50),
 DepartmentId int
 )
+
+*created tables Department and Employees
 
 ---sisestame andmed
 insert into Department (Id, DepartmentName, Location, DepartmentHead)
