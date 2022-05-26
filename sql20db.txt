@@ -319,7 +319,7 @@ as begin
 	and DepartmentId = @DepartmentId
 end
 
---- kõik esimeses osakonnas meessoost töötavad isikud
+--- kõik esimeses osakonnas meessoost töötavad isikud *tehtud
 spGetEmployeesByGenderAndDepartment 'Male', 1 *kuvatakse esimese sooga
 
 spGetEmployeesByGenderAndDepartment @DepartmentId =  1, @Gender = 'Male'
