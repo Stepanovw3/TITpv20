@@ -111,18 +111,18 @@ git push
 -- values (9, 'test', 'test', 2, 160)
 
 --rea kustutamine
-select * from Person
-go
-delete from Person where Id = 8
-go
-select * from Person
+-- select * from person
+-- go
+-- delete from person where id = 8
+-- go
+-- select * from person
 
 --- lisame veeru juurde
-alter table Person
-add City nvarchar(25)
+-- alter table person
+-- add city nvarchar(25)
 
 -- tahame tead kõiki, kes elavad Gothami linnas 
-select * from Person where City = 'Gotham'
+-- select * from person where city = 'gotham'
 -- kõik, kes ei ela Gothamis
 select * from Person where City <> 'Gotham'
 select * from Person where City != 'Gotham'
