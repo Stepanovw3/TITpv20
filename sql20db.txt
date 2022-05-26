@@ -18,7 +18,7 @@ create database Titpv20
 -- db kustutamine
 DRop DataBASE Tarpe21
 
---- teeme tabeli
+--- teeme tabeli Sugu ja Isik * tehtud
 create table Gender
 (
 Id int NOT NULL primary key,
