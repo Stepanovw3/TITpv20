@@ -317,14 +317,14 @@ select * from Department
 
 
 
---- loome stored procedure, mis kuvab vaate
+--- loome stored procedure, mis kuvab vaate *создание хранимой процедуры
 create procedure spGetEmployees
 as begin
 	select FirstName, Gender from Employees
 end
 
-spGetEmployees
-exec spGetEmployees
+--spGetEmployees
+--exec spGetEmployees
 execute spGetEmployees
 
 --- 
