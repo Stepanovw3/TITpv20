@@ -35,7 +35,7 @@ create database TITpv20
 -- db kustutamine
 DRop DataBASE Tarpe21
 
---- teeme tabeli
+--- teeme tabeli Creating table Gender and Person *done
 create table Gender
 (
 Id int NOT NULL primary key,
