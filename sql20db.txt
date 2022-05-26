@@ -114,6 +114,7 @@ add City nvarchar(25)
 select * from Person where City = 'Gotham'
 -- kõik, kes ei ela Gothamis
 select * from Person where City <> 'Gotham'
+-- Done
 select * from Person where City != 'Gotham'
 
 -- näitab teatud vanusega inimesi
