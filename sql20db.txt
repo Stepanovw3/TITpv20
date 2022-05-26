@@ -69,6 +69,7 @@ select * from Person
 *tabelit on täidetud
 
 --- võõrvõtme piirangu maha võtmine
+----удаление связей между таблицами
 alter table Person
 drop constraint tblPerson_GenderId_FK
 
@@ -104,6 +105,7 @@ add constraint CK_Person_Age check (Age > 0 and Age < 150)
 
 insert into Person (Id, Name, Email, GenderId, Age)
 values (9, 'Test', 'Test', 2, 160)
+---lisatud veerg vanus /age piranguga check Age > 0 and Age < 150
 
 --rea kustutamine
 select * from Person
