@@ -9,10 +9,12 @@ git branch DaanelD
 git checkout DaanelD
 git status
 
+
 git add .
 git commit -a -m "git commands are added"
 
 git push 
+
 
 
 
