@@ -49,27 +49,27 @@ git push
 -- values (2, 'male')
 
 --- nüüd saab kasutada ainult Gender tabelis olevaid väärtuseid
-alter table Person add constraint tblPerson_GenderId_FK
-foreign key (GenderId) references Gender(Id)
+-- alter table person add constraint tblperson_genderid_fk
+-- foreign key (genderid) references gender(id)
 
--- sisestame andmed
-insert into Person (Id, Name, Email, GenderId)
-values (1, 'Supermees', 's@s.com', 2)
-insert into Person (Id, Name, Email, GenderId)
-values (2, 'Wonderwoman', 'w@w.com', 1)
-insert into Person (Id, Name, Email, GenderId)
-values (3, 'Batman', 'b@b.com', 2)
-insert into Person (Id, Name, Email, GenderId)
-values (4, 'Aquaman', 'a@a.com', 2)
-insert into Person (Id, Name, Email, GenderId)
-values (5, 'Catwoman', 'c@c.com', 1)
-insert into Person (Id, Name, Email, GenderId)
-values (6, 'Antman', 'ant"ant.com', 2)
-insert into Person (Id, Name, Email, GenderId)
-values (7, 'Spiderman', 'spider@spiderman.com', 2)
+-- -- sisestame andmed
+-- insert into person (id, name, email, genderid)
+-- values (1, 'supermees', 's@s.com', 2)
+-- insert into person (id, name, email, genderid)
+-- values (2, 'wonderwoman', 'w@w.com', 1)
+-- insert into person (id, name, email, genderid)
+-- values (3, 'batman', 'b@b.com', 2)
+-- insert into person (id, name, email, genderid)
+-- values (4, 'aquaman', 'a@a.com', 2)
+-- insert into person (id, name, email, genderid)
+-- values (5, 'catwoman', 'c@c.com', 1)
+-- insert into person (id, name, email, genderid)
+-- values (6, 'antman', 'ant"ant.com', 2)
+-- insert into person (id, name, email, genderid)
+-- values (7, 'spiderman', 'spider@spiderman.com', 2)
 
 -- vaatame tabeli andmeid
-select * from Person
+-- select * from person
 
 --- võõrvõtme piirangu maha võtmine
 alter table Person
