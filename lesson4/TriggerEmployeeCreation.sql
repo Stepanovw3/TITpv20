@@ -1,7 +1,7 @@
 create trigger tr_Employee_ForInsert
 on EmployeeTrigger
 for insert
-as begin
+begin
 	declare @Id int
 	select @Id = Id from inserted
 
