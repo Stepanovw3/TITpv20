@@ -4,7 +4,7 @@ create database Tarpe21
 -- db kustutamine
 DRop DataBASE Tarpe21
 
---- teeme tabeli
+--- teeme tabeli on tehtud
 create table Gender
 (
 Id int NOT NULL primary key,
