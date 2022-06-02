@@ -10,3 +10,7 @@ as begin
 	+ ' is added at ' + cast(Getdate() as nvarchar(20)))
 end
 
+
+--если вставить в таблицу нового сотрудника данные попадут в EmployeeAudit
+
+
