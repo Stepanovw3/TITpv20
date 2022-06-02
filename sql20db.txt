@@ -1,5 +1,5 @@
--- db loomine
-create database Tarpe21
+﻿-- db loomine * 
+create database Titpv20lisa
 
 -- db kustutamine
 DRop DataBASE Tarpe21
