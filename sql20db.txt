@@ -12,7 +12,7 @@ git commit -a -m "git käsud on lisatud"
 
 git push
 
--- db loomine *tehtud
+-- db loomine **tehtud
 create database Titpv20
 
 -- db kustutamine
