@@ -1,4 +1,5 @@
--- db loomine
+﻿-- db loomine
+ulesane teeb german
 create database Tarpe21
 
 -- db kustutamine
