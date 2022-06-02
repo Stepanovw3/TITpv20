@@ -19,10 +19,10 @@ Email nvarchar(30),
 GenderId int
 )
 
---- andmete sisestamine tabelisse
-insert into Gender (Id, Gender)
+--- andmete sisestamine tabelisse *
+insert into Baraban (Id, Baraban)
 values (1, 'Female')
-insert into Gender (Id, Gender)
+insert into Baraban (Id, Baraban)
 values (2, 'Male')
 
 --- nüüd saab kasutada ainult Gender tabelis olevaid väärtuseid
