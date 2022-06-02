@@ -1,8 +1,9 @@
 ﻿-- db loomine
-ulesane teeb german
+**worked
 create database Tarpe21
 
 -- db kustutamine
+**worked
 DRop DataBASE Tarpe21
 
 --- teeme tabeli
